@@ -1,2 +1,2 @@
 # GreenPulse-AI
-GreenPulse AI Test IBM Forecast
+GreenPulse AI IBM Forecast
