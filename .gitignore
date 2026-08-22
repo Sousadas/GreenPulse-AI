@@ -1,0 +1,44 @@
+# Global gitignore for GreenPulse-AI
+
+# Environment variables (NEVER COMMIT)
+.env
+.env.*
+!.env.example
+
+# Node/JavaScript
+node_modules/
+dist/
+build/
+coverage/
+.npm/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs and databases
+*.log
+*.sqlite
+*.db
+
+# IDEs and OS
+.DS_Store
+.vscode/
+.idea/
+
+# Security (keys, certs)
+*.pem
+*.key
+*.crt
+*.p12
+
+# Note: greenpulse/ is currently untracked, but if added, 
+# these rules will protect it globally.

@@ -1,0 +1,50 @@
+.card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  padding: 16px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  border-top: 3px solid var(--color-border);
+}
+
+.card.solar { border-top-color: var(--color-solar); }
+.card.wind { border-top-color: var(--color-wind); }
+.card.green { border-top-color: var(--color-secondary); }
+.card.critical { border-top-color: var(--color-critical); }
+.card.warning { border-top-color: var(--color-warning); }
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--color-muted);
+}
+
+.icon { color: var(--color-muted); }
+
+.value {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.1;
+  color: var(--color-text);
+}
+
+.unit {
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--color-muted);
+}
+
+.sub {
+  font-size: 12px;
+  color: var(--color-muted);
+}

@@ -1,0 +1,18 @@
+.badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 2px 8px;
+  border-radius: 3px;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.success { background: #d4f5e7; color: #0a5c38; }
+.warning { background: #fef3c7; color: #92400e; }
+.critical { background: #fee2e2; color: #991b1b; }
+.info { background: #dbeafe; color: #1e40af; }
+.muted { background: #f1f5f9; color: #475569; }
+.solar { background: #fef9c3; color: #854d0e; }
+.wind { background: #e0f2fe; color: #075985; }

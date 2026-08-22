@@ -1,0 +1,42 @@
+/* GreenPulse AI — Global Styles */
+:root {
+  --color-primary: #0B3D2E;
+  --color-secondary: #147D64;
+  --color-solar: #F5B942;
+  --color-wind: #4DA3D9;
+  --color-bg: #F5F7F6;
+  --color-dark: #081C15;
+  --color-success: #22A06B;
+  --color-warning: #F59E0B;
+  --color-critical: #DC3545;
+  --color-text: #17221E;
+  --color-muted: #5A6E68;
+  --color-border: #D1DED9;
+  --color-surface: #FFFFFF;
+  --font: -apple-system, "Segoe UI", system-ui, sans-serif;
+  --radius: 6px;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font);
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--color-text);
+  background: var(--color-bg);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+  font-family: var(--font);
+}

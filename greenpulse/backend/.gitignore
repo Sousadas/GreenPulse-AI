@@ -1,0 +1,22 @@
+# Environment — NEVER commit credentials
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+
+# Test artefacts
+.pytest_cache/
+.coverage
+htmlcov/
+
+# OS
+.DS_Store
