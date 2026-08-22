@@ -7,11 +7,6 @@
 <h2 align="center">Intelligent Renewable Energy Operations Platform</h2>
 
 <p align="center">
-  AI-powered monitoring, forecasting, simulation and decision support
-  for hybrid solar and wind energy systems.
-</p>
-
-<p align="center">
   <strong>GreenPulse AI</strong> is designed to transform renewable-energy
   operational data into meaningful information for monitoring, analysis,
   forecasting and operational decision-making.
