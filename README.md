@@ -1,7 +1,7 @@
 # GreenPulse AI
 
 <p align="center">
-  <img src="frontend/src/assets/greenpulse-cover.jpg" alt="GreenPulse AI">
+  <img src="greenpulse/frontend/src/assets/greenpulse-cover.jpg" alt="GreenPulse AI">
 </p>
 
 <h2 align="center">Intelligent Renewable Energy Operations Platform</h2>
