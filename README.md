@@ -1,275 +1,230 @@
-# GreenPulse-AI
-AI-powered renewable energy operations platform for monitoring, forecasting, simulation, alerts, and intelligent decision support.
-
-### Intelligent Renewable Energy Operations Platform
+# GreenPulse AI
 
 <p align="center">
-  <strong>
-    AI-powered monitoring, forecasting, simulation and decision support
-    for hybrid solar and wind energy systems.
-  </strong>
+  <img src="frontend/src/assets/greenpulse-cover.jpg" alt="GreenPulse AI">
+</p>
+
+<h2 align="center">Intelligent Renewable Energy Operations Platform</h2>
+
+<p align="center">
+  AI-powered monitoring, forecasting, simulation and decision support
+  for hybrid solar and wind energy systems.
 </p>
 
 <p align="center">
-  <img src="docs/images/dashboard.png" alt="GreenPulse AI Dashboard" width="100%">
+  <strong>GreenPulse AI</strong> is designed to transform renewable-energy
+  operational data into meaningful information for monitoring, analysis,
+  forecasting and operational decision-making.
 </p>
 
-## Overview
+## Project Overview
 
-GreenPulse AI is an intelligent renewable-energy operations platform
-designed to centralize the monitoring and analysis of hybrid solar and
-wind energy systems.
+GreenPulse AI is an intelligent renewable-energy operations platform designed
+to support the monitoring and analysis of hybrid solar and wind energy systems.
+The platform centralizes operational information from renewable assets,
+generation systems and grid conditions into a unified interface.
 
-The platform combines operational monitoring, data visualization,
-short-term forecasting, alert management, maintenance-risk analysis,
-simulation capabilities and AI-assisted decision support in a single
-interface.
-
-GreenPulse AI transforms operational energy data into actionable
-information, helping users understand generation performance, identify
-operational conditions and support better decisions.
+The system combines operational dashboards, renewable-energy monitoring,
+short-term forecasting, alert management, asset monitoring, maintenance-risk
+analysis, simulation capabilities and an AI conversational assistant.
+The platform can operate with simulated data, allowing development,
+testing and demonstration without requiring direct access to physical
+renewable-energy infrastructure.
 
 ## Problem Statement
 
-Renewable-energy operators may need to monitor multiple assets and
-operational parameters simultaneously. Identifying underperforming
-assets, generation deficits, maintenance risks and grid conditions can
-become difficult when information is distributed across different
-systems.
+Renewable-energy operators may need to monitor multiple assets and operational
+parameters simultaneously. Identifying underperforming assets, generation
+deficits, maintenance risks and grid conditions can become difficult when
+information is distributed across different systems.
 
-GreenPulse AI addresses this challenge by providing a centralized
-operational platform where renewable-energy data can be visualized,
-analysed and interpreted through dashboards, forecasts, alerts,
-simulation and AI-assisted recommendations.
+GreenPulse AI addresses this challenge by providing a centralized operational
+platform that combines monitoring, visualization, forecasting, alerts,
+simulation and AI-assisted analysis. This approach helps transform operational
+data into information that can support faster and more informed decisions.
 
-## Project Objectives
+## Main Objective
 
-The main objective of GreenPulse AI is to develop an intelligent
-renewable-energy operations platform capable of monitoring hybrid solar
-and wind systems, analysing operational conditions and supporting
-better operational decisions.
+The main objective of GreenPulse AI is to develop an intelligent renewable-energy
+operations platform capable of monitoring hybrid solar and wind systems,
+analysing operational conditions and assisting users in making better
+operational decisions.
 
-### Specific Objectives
+## Core Features
 
-- Monitor solar generation
-- Monitor wind generation
-- Monitor grid conditions
-- Display operational KPIs
-- Provide renewable-generation forecasts
-- Detect operational alerts
-- Identify maintenance risks
-- Monitor renewable assets
-- Provide AI-based operational recommendations
-- Provide an AI conversational assistant
-- Provide simulation capabilities
-- Visualize operational data
-- Support responsive access across devices
+### Dashboard
 
-# Core Features
+The operational dashboard provides a centralized view of the renewable-energy
+system. It displays key performance indicators, generation information,
+operational status, alerts, maintenance risks, forecasts and grid conditions.
 
-| Feature | Description |
-|---|---|
-| 📊 Dashboard | Centralized operational overview |
-| ☀️ Solar Monitoring | Solar generation and inverter monitoring |
-| 🌬️ Wind Monitoring | Wind generation and turbine monitoring |
-| 📈 Forecasting | Short-term renewable generation prediction |
-| ⚡ Grid Monitoring | Generation versus demand analysis |
-| 🚨 Alerts | Operational alert detection and severity |
-| 🔧 Maintenance | Maintenance-risk identification |
-| 🛰️ Asset Management | Renewable asset visibility |
-| 🤖 AI Assistant | Natural-language operational assistance |
-| 🧪 Simulation | Simulated renewable-energy scenarios |
-| 📉 Data Visualization | Charts, KPIs and operational indicators |
-| 📱 Responsive UI | Desktop, tablet and mobile support |
+### Solar Monitoring
 
-# Dashboard
-
-The operational dashboard provides a centralized view of the renewable
-energy system.
-
-It presents:
-
-- Total generation
-- Solar generation
-- Wind generation
-- Grid surplus/deficit
-- Active alerts
-- Maintenance risks
-- Generation forecast
-- Grid advisory
-- Operational status
-- System overview
+The Solar Monitoring module provides visibility into solar-energy generation
+and connected solar assets. It includes information such as solar generation,
+irradiance, ambient temperature, inverter activity, efficiency and asset status.
 
 <p align="center">
-  <img src="docs/images/dashboard.png"
-       alt="GreenPulse AI Operations Dashboard"
-       width="100%">
+  <img src="frontend/src/assets/solar-monitoring.png" alt="Solar Monitoring" width="900">
 </p>
 
-# Solar Monitoring
+### Wind Monitoring
 
-GreenPulse AI monitors solar-energy generation and provides visibility
-into the performance of connected solar assets.
+The Wind Monitoring module provides operational visibility into wind generation
+and turbine activity. It allows users to analyse wind contribution to the
+hybrid renewable-energy system and monitor turbine-related information.
 
-The system presents information such as solar generation, irradiance,
-ambient temperature, active inverters, inverter power output and asset
-status.
+<p align="center">
+  <img src="frontend/src/assets/wind-monitoring.png" alt="Wind Monitoring" width="900">
+</p>
 
-This allows operators to identify variations in generation and potential
-underperformance while maintaining a centralized view of the solar
-subsystem.
+### Forecasting
 
-# Wind Monitoring
+The Forecasting module provides short-term renewable-generation predictions.
+Forecast information can be used to understand expected generation levels,
+possible variations and potential generation deficits or surpluses.
 
-The wind-monitoring module provides operational visibility into the
-wind-energy subsystem.
+<p align="center">
+  <img src="frontend/src/assets/forecasting.png" alt="Renewable Energy Forecasting" width="900">
+</p>
 
-The platform monitors turbine generation, turbine activity and asset
-conditions while showing the contribution of wind generation to the
-overall hybrid renewable-energy system.
+### Grid Monitoring
 
-This information can be analysed together with solar and grid data to
-provide a broader operational picture.
+The Grid Monitoring module analyses renewable generation in relation to
+grid demand. It helps identify generation surplus or deficit conditions
+and provides information that can support operational planning.
 
-# Forecasting
+### Alert Management
 
-GreenPulse AI provides short-term renewable-generation forecasts for
-the hybrid solar and wind system.
+The platform detects and presents operational alerts according to their
+severity. Users can identify active conditions and distinguish between
+normal, warning, high and critical operational situations.
 
-Forecast information includes predicted generation and forecast
-uncertainty, allowing operators to anticipate changes in renewable
-production and support operational planning.
+### Asset Management
 
-Forecast data can also be compared with demand and grid conditions to
-identify potential generation deficits or surpluses.
+GreenPulse AI provides centralized visibility of renewable-energy assets,
+including solar inverters and wind turbines. Asset information can include
+operational status, generation, efficiency and other relevant parameters.
 
-# Grid Monitoring
+### Maintenance Monitoring
 
-The grid module analyses renewable generation in relation to system
-demand.
+The maintenance module helps identify assets associated with potential
+maintenance risks. High and critical conditions can be highlighted to
+support proactive operational management.
 
-The platform can identify:
+### AI Assistant
 
-- Generation surplus
-- Generation deficit
-- Grid import requirements
-- Grid export conditions
-- Renewable contribution
-- Current load conditions
+The AI Assistant allows users to interact with the platform using
+natural-language questions. It provides AI-assisted operational information,
+analysis and recommendations based on available system information.
 
-Based on these conditions, GreenPulse AI can provide operational
-recommendations.
+The project integrates IBM AI services to support intelligent interaction
+and operational decision support.
 
-# Alerts
+### Simulation
 
-The alert-management module identifies operational conditions requiring
-attention.
+GreenPulse AI includes simulation capabilities that generate operational
+data for testing, development, demonstration and analysis.
 
-Alerts can be classified according to severity, including:
+Simulation makes it possible to demonstrate the platform without requiring
+direct connection to physical solar panels, inverters, wind turbines or
+other renewable-energy infrastructure.
 
-- High
-- Critical
+### Data Visualization
 
-The dashboard provides a centralized view of active alerts and their
-associated assets.
+Operational information is presented using dashboards, charts, KPI cards,
+tables, indicators and status components to make complex renewable-energy
+data easier to understand.
 
-# Asset Management
+### Responsive Interface
 
-GreenPulse AI provides centralized visibility of renewable-energy
-assets.
+The platform is designed to adapt to different screen sizes, including
+desktop, tablet and mobile devices.
 
-Supported assets include:
+## System Architecture
 
-- Solar inverters
-- Solar panels
-- Wind turbines
-- Grid-related assets
+GreenPulse AI follows a modular architecture in which the user interface,
+backend services, data processing and AI capabilities work together.
 
-Asset information can include generation, efficiency, temperature,
-irradiance, operational status and other relevant parameters.
+The main architectural components include:
 
-# Maintenance Monitoring
+- Frontend application
+- Backend services
+- Operational data processing
+- Renewable-energy simulation
+- Forecasting services
+- Alert and risk analysis
+- AI Assistant
+- IBM AI services
+- REST-based communication
+- Data visualization layer
 
-The maintenance module identifies assets associated with potential
-maintenance risks.
+The architecture allows the platform to separate presentation, processing,
+AI capabilities and operational logic.
 
-The system highlights high and critical conditions to help operators
-prioritize assets that may require inspection or intervention.
+## Technology Stack
 
-# AI Assistant
+### Frontend
 
-The AI Assistant allows users to interact with GreenPulse AI using
-natural-language questions.
+- TypeScript
+- HTML
+- CSS
+- Component-based frontend architecture
+- Recharts
+- Lucide React
 
-Users can ask operational questions related to:
+### Backend
 
-- Renewable generation
-- Asset performance
-- Forecasts
-- Alerts
-- Grid conditions
-- Maintenance
-- Operational recommendations
+- Python
+- REST APIs
+- Data processing
+- Forecasting logic
+- Simulation services
+- Operational analysis
 
-The assistant converts operational information into more accessible
-AI-assisted responses.
+### Artificial Intelligence
 
-# Simulation
+- IBM watsonx.ai
+- IBM Granite models
+- IBM Cloud services
+- AI-assisted operational analysis
+- Natural-language interaction
 
-GreenPulse AI includes a simulation capability for development,
-testing, demonstration and analysis.
+### Development and Design Tools
 
-Simulation allows the platform to operate with generated renewable
-energy data without requiring direct access to physical solar or wind
-infrastructure.
+- Git
+- GitHub
+- npm
+- Sigma
+- Canva
+- Figma
+- Browser Developer Tools
 
-This makes it possible to demonstrate system behaviour under different
-operational conditions.
-
-# Artificial Intelligence
-
-Artificial intelligence is used to support operational analysis,
-forecasting and decision support.
-
-The AI layer can analyse available operational information and provide
-recommendations based on system conditions.
-
-The project also integrates IBM AI technologies for conversational and
-intelligent capabilities.
-
-# System Architecture
-
-The platform follows a modular architecture connecting the user
-interface, backend services, operational data, forecasting components
-and AI services.
+## Project Structure
 
 ```text
-                    ┌──────────────────────┐
-                    │      User Interface  │
-                    │      Dashboard       │
-                    └──────────┬───────────┘
-                               │
-                               ▼
-                    ┌──────────────────────┐
-                    │      Backend API     │
-                    │   Python Services    │
-                    └──────────┬───────────┘
-                               │
-              ┌────────────────┼────────────────┐
-              ▼                ▼                ▼
-        ┌──────────┐     ┌────────────┐   ┌─────────────┐
-        │ Solar    │     │ Wind       │   │ Grid        │
-        │ Data     │     │ Data       │   │ Data        │
-        └──────────┘     └────────────┘   └─────────────┘
-              │                │                │
-              └────────────────┼────────────────┘
-                               ▼
-                    ┌──────────────────────┐
-                    │ Analytics & Forecast │
-                    └──────────┬───────────┘
-                               │
-                 ┌─────────────┴─────────────┐
-                 ▼                           ▼
-        ┌────────────────┐          ┌────────────────┐
-        │ AI Assistant   │          │ Recommendations│
-        └────────────────┘          └────────────────┘
+GreenPulse-AI/
+│
+├── backend/
+│   ├── ...
+│   └── ...
+│
+├── frontend/
+│   ├── public/
+│   └── src/
+│       ├── assets/
+│       │   ├── dashboard.png
+│       │   ├── forecasting.png
+│       │   ├── greenpulse-cover.jpg
+│       │   ├── solar-monitoring.png
+│       │   └── wind-monitoring.png
+│       │
+│       ├── components/
+│       ├── hooks/
+│       ├── pages/
+│       ├── services/
+│       └── ...
+│
+├── logo.png
+├── README.md
+└── .gitignore
