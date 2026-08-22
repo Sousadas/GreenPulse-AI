@@ -65,7 +65,7 @@ and connected solar assets. It includes information such as solar generation,
 irradiance, ambient temperature, inverter activity, efficiency and asset status.
 
 <p align="center">
-  <img src="frontend/src/assets/solar-monitoring.png" alt="Solar Monitoring" width="900">
+  <img src="greenpulse/frontend/src/assets/solar-monitoring.png" alt="Solar Monitoring" width="900">
 </p>
 
 ### Wind Monitoring
@@ -75,7 +75,7 @@ and turbine activity. It allows users to analyse wind contribution to the
 hybrid renewable-energy system and monitor turbine-related information.
 
 <p align="center">
-  <img src="frontend/src/assets/wind-monitoring.png" alt="Wind Monitoring" width="900">
+  <img src="greenpulse/frontend/src/assets/wind-monitoring.png" alt="Wind Monitoring" width="900">
 </p>
 
 ### Forecasting
@@ -85,7 +85,7 @@ Forecast information can be used to understand expected generation levels,
 possible variations and potential generation deficits or surpluses.
 
 <p align="center">
-  <img src="frontend/src/assets/forecasting.png" alt="Renewable Energy Forecasting" width="900">
+  <img src="greenpulse/frontend/src/assets/forecasting.png" alt="Renewable Energy Forecasting" width="900">
 </p>
 
 ### Grid Monitoring
